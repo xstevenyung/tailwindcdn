@@ -1,0 +1,19 @@
+{
+  "include": ["./src/**.ts"],
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "./netlify/functions"
+  }
+}
