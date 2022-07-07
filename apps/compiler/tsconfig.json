@@ -6,7 +6,7 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "checkJs": true,
-    "lib": ["es2015"],
+    "lib": ["es2015", "DOM"],
 
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
