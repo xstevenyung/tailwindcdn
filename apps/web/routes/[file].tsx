@@ -32,7 +32,7 @@ export const handler: Handlers = {
 
     const stylesheet = await fetch(Deno.env.get("COMPILER_URL") as string, {
       method: "POST",
-      body: JSON.parse(atob(base64)),
+      body: atob(base64),
     }).then(
       (response) => response.text(),
     );
